@@ -43,3 +43,18 @@ jspm_packages
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/credentials/*.key
+
+# Ignore coverage directory
+/coverage/
+
+# Ignore environment variables
+.env
+.env.*
